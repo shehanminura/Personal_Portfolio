@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background: black;
+  color: white;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: rgb(94, 244, 255);
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: rgb(94, 244, 255);
+  color: rgb(0, 0, 0);
+}
+
+.sidebar a:hover:not(.active) {
+  background-color:  rgb(94, 244, 255);
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.back{
+  background: url(imge/image.png) 0 -45px;
+}
+.myname{
+  color:rgb(94, 244, 255);
+  font-family:sans-serif;
+   padding-top:50px;
+    font-weight: 100; 
+    text-shadow: 1px 1px white,0 0 25px blue,0 0 5px darkblue;
+    background-repeat: no-repeat;
+}
+.headst{
+  color: whitesmoke;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.stat-item {
+  text-align: center;
+  max-width: 200px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(94, 244, 255);
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+.stat-item p {
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .stats-section {
+      flex-direction: column;
+  }
+  .stat-item {
+      margin-bottom: 1.5rem;
+  }
+}
+.countdown{
+  background: url(https://i.pinimg.com/originals/45/4f/e2/454fe26eb6dd135ce7feaeb3b1929573.gif) 0 -45px;
+  mask-repeat: no-repeat;
+   
+}
