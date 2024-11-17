@@ -147,3 +147,64 @@ body {
   width:100%;
   height:100%;
 }
+
+/* My Social Buttons Section */
+.my-social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between buttons */
+  padding: 20px;
+  background-color: #000000; /* Optional background */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+.social-button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 5px; /* Smooth edges for better design */
+}
+
+.social-button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Individual Button Colors */
+.social-button.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.social-button.twitter {
+  background-color: #02bb02;
+  color: #fff;
+}
+
+.social-button.google {
+  background-color: #dd4b39;
+  color: #fff;
+}
+
+.social-button.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.social-button.instagram {
+  background-color: #e4405f;
+  color: #fff;
+}
+
