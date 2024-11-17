@@ -6,8 +6,8 @@ body {
 }
 
 .sidebar {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 5;
   width: 200px;
   background-color: #000000;
   position: fixed;
@@ -55,9 +55,18 @@ div.content {
   }
 }
 .back{
-  background: url(imge/image.png) 0 -45px;
+  background: url(imge/7362759c02faa8997f142569eeffd872.gif) 0 -45px;
 }
 .myname{
+  color:rgb(94, 244, 255);
+  font-family:sans-serif;
+   padding-top:50px;
+    font-weight: 100; 
+    text-shadow: 1px 1px white,0 0 25px blue,0 0 5px darkblue;
+    background-repeat: no-repeat;
+}
+
+h2{
   color:rgb(94, 244, 255);
   font-family:sans-serif;
    padding-top:50px;
@@ -132,4 +141,9 @@ body {
   background: url(https://i.pinimg.com/originals/45/4f/e2/454fe26eb6dd135ce7feaeb3b1929573.gif) 0 -45px;
   mask-repeat: no-repeat;
    
+}
+.sidimg {
+  border-radius: 100%;
+  width:100%;
+  height:100%;
 }
