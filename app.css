@@ -187,7 +187,7 @@ body {
   color: #fff;
 }
 
-.social-button.twitter {
+.social-button.whatsapp {
   background-color: #02bb02;
   color: #fff;
 }
@@ -204,6 +204,10 @@ body {
 
 .social-button.instagram {
   background-color: #e4405f;
+  color: #fff;
+}
+.social-button.github {
+  background-color: #000000;
   color: #fff;
 }
 
